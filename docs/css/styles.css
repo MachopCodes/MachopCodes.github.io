@@ -58,11 +58,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-.myimage {
-  border-radius: 25px;
-  padding: 20px;
-}
-
 .modal-img {
   width: 200px;
 }
@@ -401,6 +396,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: center;
 }
 
 .display-1 {
@@ -10140,9 +10136,19 @@ h3 {
     font-size: 1.5em;
   }
 }
+
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  background-image: url('../assets/img/masthead.jpg');
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10168,6 +10174,15 @@ h3 {
     font-size: 1.5rem;
   }
 }
+
+.skills-section {
+  background-image: url('../assets/img/waves.jpg');
+}
+
+.portfolio-img {
+  background-image: url('../assets/img/ravens-nest.jpg');
+}
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
