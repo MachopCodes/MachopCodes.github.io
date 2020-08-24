@@ -483,6 +483,14 @@ mark,
   height: auto;
 }
 
+.img-fixed {
+     width: 100px;
+     height: auto;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -10039,8 +10047,7 @@ h3 {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50 !important;
-  font-size: 2rem;
+  image: url('../assets/img/portfolio/wa-logo.png');
 }
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
@@ -10175,8 +10182,33 @@ h3 {
   }
 }
 
-.skills-section {
+.skills-img {
   background-image: url('../assets/img/waves.jpg');
+}
+
+.skills .skills-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  overflow: hidden;
+}
+
+.skills .skills-item .skills-item-caption {
+  position: relative;
+  bottom: 50%;
+  left: 0;
+  max-width: 100%;
+  transition: all 0.2s ease-in-out;
+  opacity: .5;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.skills .skills-item .skills-item-caption:hover {
+  opacity: 1;
+}
+.skills .skills-item .skills-item-caption .skills-item-caption-content {
+  font-size: 1.5rem;
 }
 
 .portfolio-img {
@@ -10191,14 +10223,16 @@ h3 {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(0, 50, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
