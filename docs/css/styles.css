@@ -394,8 +394,8 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.85rem;
-  font-weight: 360;
+  font-size: 1.45rem;
+  font-weight: 240;
   text-align: center;
 }
 
@@ -634,16 +634,28 @@ pre code {
 }
 
 .col-xl,
-.col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg,
-.col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1, .col-md,
-.col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm,
-.col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col,
+.col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5,  .col-lg, .col-lg-4, .col-lg-3, .col-lg-1,
+.col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5,  .col-md, .col-md-2, .col-md-1, .col-sm,
+.col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col, .col-xl-4, .col-xl-3,
+.col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-3, .col-sm-2, .col-sm-1,
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
   position: relative;
   width: 100%;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
+
+ .col-xl-2, .col-xl-1, .col-lg-2, .col-md-3, .col-sm-4,  {
+  position: relative;
+  width: 80%;
+  padding-right: .85rem;
+  padding-left: .85rem;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+
 
 .col {
   flex-basis: 0;
@@ -10023,12 +10035,12 @@ h3 {
   padding: 6rem 0;
 }
 .page-section .page-section-heading {
-  font-size: 2.25rem;
-  line-height: 2rem;
+  font-size: 2.0rem;
+  line-height: 1.5rem;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
@@ -10048,6 +10060,17 @@ h3 {
   border-radius: 1rem;
   border-color: #2c3e50 !important;
 }
+
+.divider-custom .divider-custom-line-masthead {
+  width: 100%;
+  max-width: 2rem;
+  height: 0.0005rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+}
+
+
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
 }
@@ -10057,9 +10080,15 @@ h3 {
 .divider-custom .divider-custom-icon {
   color: #2c3e50 !important;
   font-size: 2rem;
-  width: 6%;
+  width: 60px;
   height: auto;
 }
+.divider-custom .divider-custom-icon-links {
+  color: #2c3e50 !important;
+  font-size: 2rem;
+  height: auto;
+}
+
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
 }
@@ -10169,24 +10198,21 @@ h3 {
   background-image: url('../assets/img/masthead.jpg');
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
-.masthead .masthead-avatar {
-  width: 50rem;
-}
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(2rem + 104px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
-    line-height: 3.5rem;
+    font-size: 3rem;
+    line-height: 2.5rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
@@ -10202,8 +10228,9 @@ h3 {
   position: relative;
   display: block;
   max-height: 648px;
-  max-width: auto;
+  width: 75%;
   overflow: hidden;
+  margin: 0;
 }
 
 .skills .skills-item .skills-item-caption {
@@ -10212,15 +10239,17 @@ h3 {
   left: 0;
   max-width: 100%;
   transition: all 0.2s ease-in-out;
-  opacity: .5;
+  opacity: .8;
   background-color: rgba(0, 0, 0, 0.0);
 }
 
 .skills .skills-item .skills-item-caption:hover {
   opacity: 1;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .skills .skills-item .skills-item-caption .skills-item-caption-content {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 
