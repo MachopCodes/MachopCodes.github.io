@@ -404,7 +404,7 @@
                                 <!-- Portfolio Modal - Text-->
                                 <p class="text-left">
                                     <br>
-                                    Tic-Tac-Toe is a front-end application interacting with a third-party RESTful API that allows you to play tic-tac-toe with a friend.
+                                    Tic-Tac-Toe is a front-end application built using vanilla JavaScript, interacting with a third-party RESTful API that allows you to play tic-tac-toe with a friend.
                                     Includes user authentication, game logic and a view of previous games.
                                 </p>
                                 <!-- <p class="text-left">
@@ -463,7 +463,7 @@
                                 </h5>
                                 <br>
                                 <p class="text-left">
-                                    Music Man is a platform developed for musicians to advertise music lessons and professional gigs by allowing users to create and search profiles and connect.
+                                    Music Man is a platform developed in vanilla JavaScript for musicians to advertise music lessons and professional gigs by allowing users to create and search profiles and connect.
                                 </p>
                                 <!-- <p class="text-left">
                                     Check out the links above to see the live site or view the source code and track future developments through the issue queue.
@@ -505,7 +505,32 @@
                             </div>
                             <!-- Portfolio Modal - Image-->
                             <div class="col-lg-5">
-                                <img class="img-fluid rounded mb-5" src="assets/img/websites/art-gallery.png" alt="" />
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./assets/img/websites/art-gallery/home.png" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./assets/img/websites/art-gallery/gallery.png" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./assets/img/websites/art-gallery/view.png" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                             </div>
                             <div class="col-lg-5">
                                 <h5>
@@ -523,7 +548,7 @@
                                 <br>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="text-left">
-                                    Art Gallery is a single page image hosting application for sharing art and connecting.
+                                    Art Gallery was a collaboration of three developers to create a single page image hosting application using React and AWS S3 with an Express API for sharing art and connecting.
                                 </p>
                             </div>
                         </div>
@@ -562,7 +587,19 @@
                             </div>
                             <!-- Portfolio Modal - Image-->
                             <div class="col-lg-5">
-                                <img class="img-fluid rounded mb-5" src="assets/img/websites/captains-log.png" alt="" />
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2300">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./assets/img/websites/captains-log/home.png" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./assets/img/websites/captains-log/create-trips.png" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./assets/img/websites/captains-log/view-trips.png" alt="Third slide">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-lg-5">
                                 <h5>
@@ -581,7 +618,7 @@
                                 <br>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="text-left">
-                                    Captains Log is a single page application that allows users to plan their boating trips with tide insights.
+                                    Captains Log is a single page application that allows users to plan their boating trips with tide insights by interacting with a foreign API that fetches tides
                                 </p>
                             </div>
                         </div>
