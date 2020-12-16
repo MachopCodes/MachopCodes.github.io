@@ -10478,8 +10478,8 @@ article p a {
 
   .mobile {
     display: block;
-    max-width: 150%;
-    margin: 40px 0;
+    max-width: 100%;
+    /* margin: 40px 0; */
   }
 
   header > h1 {
@@ -10520,8 +10520,7 @@ article p a {
 }
 
 @media screen and (max-width: 640px) {
-  main p,
-  footer p {
+  main p {
     font-size: 18px;
   }
 
@@ -10566,9 +10565,9 @@ article p a {
 }
 
 
-main section.intro {
+/* main section.intro {
   background-color: #030c15;
-}
+} */
 
 main section {
   display: flex;
@@ -10593,4 +10592,8 @@ main article {
               3px 3px 0px #46b59b,
               4px 4px 0px #017e7f,
               5px 5px 0px #052939,
+}
+
+.about-me {
+  font-size: 50px;
 }
