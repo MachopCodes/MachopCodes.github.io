@@ -10061,7 +10061,7 @@ h3 {
 }
 .divider-custom .divider-custom-line {
   width: 100%;
-  max-width: 7rem;
+  max-width: 8rem;
   height: 0.15rem;
   background-color: #2c3e50;
   border-radius: 1rem;
@@ -10228,7 +10228,7 @@ h3 {
 
 .skills-img {
   /* background-image: url('../assets/img/waves.jpg'); */
-  background-color: LightSteelBlue;
+  background-color: SteelBlue;
 }
 
 .skills .skills-item {
@@ -10279,7 +10279,8 @@ h3 {
 }
 
 .portfolio-img {
-  background-image: url('../assets/img/ravens-nest.jpg');
+  background-color: LightSteelBlue;
+  /* background-image: url('../assets/img/ravens-nest.jpg'); */
 }
 
 .portfolio .portfolio-item {
@@ -10408,7 +10409,7 @@ form .row:first-child .floating-label-form-group {
 
 .intro {
   display: flex;
-  background-color: LightSteelBlue;
+  background-color: SteelBlue;
   padding-top: 7rem;
 }
 
@@ -10430,7 +10431,7 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding: 50px 0;
   flex: 1.02;
 }
 
@@ -10580,18 +10581,6 @@ main article {
 #project .box {
   margin-left: 7%;
   width: 70%;
-}
-
-.brand-name {
-  font-size: 3rem;
-	text-align: center;
-  color: black;
-  font-weight: 1000;
-  text-shadow: 1px 1px 0px #eb452b,
-              2px 2px 0px #efa032,
-              3px 3px 0px #46b59b,
-              4px 4px 0px #017e7f,
-              5px 5px 0px #052939,
 }
 
 .about-me {
