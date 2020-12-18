@@ -484,7 +484,7 @@ mark,
 }
 
 .img-fixed {
-     width: 50px;
+     width: 30px;
      height: auto;
      background-position: 50% 50%;
      background-repeat: no-repeat;
@@ -10416,8 +10416,8 @@ form .row:first-child .floating-label-form-group {
 .intro img {
   border-radius: 1000px;
   display: block;
-  height: 40vw;
-  width: 40vw;
+  height: 45vw;
+  width: 45vw;
 }
 
 h2 img {
@@ -10431,7 +10431,7 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
+  padding: 25px 0;
   flex: 1.02;
 }
 
@@ -10448,6 +10448,10 @@ article p:last-of-type {
 article p a {
   font-weight: 500;
   border-bottom: 1px solid #ffffff;
+}
+
+.mobile {
+  max-width: 105%;
 }
 
 .box {
@@ -10581,8 +10585,4 @@ main article {
 #project .box {
   margin-left: 7%;
   width: 70%;
-}
-
-.about-me {
-  font-size: 50px;
 }
