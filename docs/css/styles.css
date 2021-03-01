@@ -10118,6 +10118,16 @@ h3 {
   align-items: center;
 }
 
+.btn-project {
+    border-radius: 15%;
+    width: 8.25rem;
+    height: 4.25rem;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    /* display: inline-flex; */
+  }
+
 .scroll-to-top {
   z-index: 1042;
   right: 1rem;
@@ -10305,7 +10315,7 @@ h3 {
   opacity: 1;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .portfolio-modal .portfolio-modal-title {
@@ -10569,9 +10579,9 @@ article p a {
 }
 
 
-/* main section.intro {
+main section.intro {
   background-color: #030c15;
-} */
+}
 
 main section {
   display: flex;
