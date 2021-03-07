@@ -570,8 +570,8 @@ pre code {
 
 .container-skills {
   width: 100%;
-  padding-right: .5rem;
-  padding-left: .5rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -10594,4 +10594,18 @@ main article {
 #project .box {
   margin-left: 7%;
   width: 70%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.tooltip .tooltiptext {
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; 
+    /* Use half of the width (120/2 = 60), to center the tooltip */
 }
